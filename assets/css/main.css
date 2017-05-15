@@ -2403,9 +2403,9 @@
 		cursor: pointer;
 		display: inline-block;
 		font-family: "Montserrat", sans-serif;
-		height: 3.5em;
-		line-height: 3.5em;
-		padding: 0 3.5em;
+		height: 2em;
+		line-height: 2em;
+		padding: 0 1.5em;
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
@@ -2477,7 +2477,7 @@
 		.button.alt {
 			background-color: transparent;
 			box-shadow: inset 0 0 0 1px #003965;
-			color: #003965 !important;
+			color: #FFBF23 !important;
 		}
 
 			input[type="submit"].alt:hover,
@@ -2625,12 +2625,14 @@
 		padding: 6em 0 4em 0;
 	}
 
+
+
 		.wrapper h1, .wrapper h2, .wrapper h3, .wrapper h4, .wrapper h5 {
-			color: #25a2c3;
+			color: #003965;
 		}
 
 		.wrapper.style1 {
-			background: #f6755e;
+			background: #003965;
 			color: #fcdcd6;
 		}
 
@@ -2669,7 +2671,7 @@
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		background: #FFBF23;
+		background: #003965;
 		cursor: default;
 		height: 6em;
 		left: 0;
@@ -2683,7 +2685,7 @@
 	}
 
 		#header .logo {
-			color: #003965;
+			color: #FFBF23;
 			font-family: "Pacifico", cursive;
 			font-size: 2.5em;
 			letter-spacing: 2px;
@@ -2722,7 +2724,7 @@
 					text-decoration: none;
 					-webkit-tap-highlight-color: transparent;
 					font-size: 2em;
-					color: #003965;
+					color: #FFBF23;
 					z-index: 10005;
 				}
 
@@ -2794,7 +2796,7 @@
 		-ms-transition: -ms-transform 0.5s ease, visibility 0.5s;
 		transition: transform 0.5s ease, visibility 0.5s;
 		-webkit-overflow-scrolling: touch;
-		background: #25a2c3;
+		background: #003965;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -2955,6 +2957,20 @@
 		#title2 {
 
 		}
+
+		/* ADDED CSS */
+
+		.title {
+			text-align: center;
+			color: #003965;
+		}
+
+		.formsid {
+			font-size: 1.5em;
+			list-style: none;
+		}
+
+		/*ADDED CSS END */
 
 		@media screen and (max-width: 1280px) {
 
@@ -3147,9 +3163,9 @@
 
 	#footer {
 		padding: 6em 0 4em 0;
-		background: #25a2c3;
+		background: #003965;
 		text-align: center;
-		color: #c8e7f0;
+		color: #FFBF23;
 	}
 
 		#footer h2 {
