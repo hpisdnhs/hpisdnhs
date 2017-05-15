@@ -2970,6 +2970,28 @@
 			list-style: none;
 		}
 
+		#Juniors {
+			background-color: #003965;
+			color: #FFBF23;
+		}
+
+		.inner2 {
+			margin: 0 auto;
+			max-width: 90%;
+		}
+
+		#Seniors {
+			background-color: #FFBF23;
+			color: #003965;
+		}
+
+		#linktitle {
+			color: #fff;
+			font-weight: 700;
+			font-family: "Montserrat", sans-serif;
+			line-height: 1.5;
+		}
+
 		/*ADDED CSS END */
 
 		@media screen and (max-width: 1280px) {
