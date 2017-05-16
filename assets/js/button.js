@@ -14,6 +14,9 @@ var btnMac = document.getElementById("myBtnMac");
 var btnKara = document.getElementById("myBtnKara");
 var btnKate = document.getElementById("myBtnKate");
 
+//Buttons to close the window
+var btnclsNick = document.getElementById("closeNick");
+
 // When the user clicks on the button, open the modal
 btnMer.onclick = function() {
     modalMer.style.display = "block";
@@ -23,6 +26,11 @@ btnNick.onclick = function(){
 }
 btnKate.onclick = function(){
     modalKate.style.display = "block";
+}
+
+//When the user clicks on the close button, closes the modal
+btnclsNick.onclick = function(){
+  modalNick.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
