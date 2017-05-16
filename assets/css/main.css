@@ -2944,7 +2944,7 @@
 			line-height: 1em;
 			margin: 7.5em 10% 0.5em 10%;
 			padding: 25px;
-			border-radius: 100px;
+			border-radius: 25px;
 			width: auto;
 			text-align: center;
 		}
@@ -3017,86 +3017,6 @@
 			    border: 1px solid #888;
 			    width: 80%; /* Could be more or less, depending on screen size */
 					max-width: 20%;
-			}
-
-			/* The Close Button */
-			.closeNick {
-			    color: #aaa;
-			    float: right;
-			    font-size: 28px;
-			    font-weight: bold;
-			}
-
-			.closeNick:hover,
-			.closeNick:focus {
-			    color: black;
-			    text-decoration: none;
-			    cursor: pointer;
-			}
-			.closeMer {
-			    color: #aaa;
-			    float: right;
-			    font-size: 28px;
-			    font-weight: bold;
-			}
-
-			.closeMer:hover,
-			.closeMer:focus {
-			    color: black;
-			    text-decoration: none;
-			    cursor: pointer;
-			}
-			.closeNick {
-			    color: #aaa;
-			    float: right;
-			    font-size: 28px;
-			    font-weight: bold;
-			}
-
-			.closeNick:hover,
-			.closeNick:focus {
-			    color: black;
-			    text-decoration: none;
-			    cursor: pointer;
-			}
-			.closeNick {
-			    color: #aaa;
-			    float: right;
-			    font-size: 28px;
-			    font-weight: bold;
-			}
-
-			.closeNick:hover,
-			.closeNick:focus {
-			    color: black;
-			    text-decoration: none;
-			    cursor: pointer;
-			}
-			.closeNick {
-			    color: #aaa;
-			    float: right;
-			    font-size: 28px;
-			    font-weight: bold;
-			}
-
-			.closeNick:hover,
-			.closeNick:focus {
-			    color: black;
-			    text-decoration: none;
-			    cursor: pointer;
-			}
-			.closeNick {
-			    color: #aaa;
-			    float: right;
-			    font-size: 28px;
-			    font-weight: bold;
-			}
-
-			.closeNick:hover,
-			.closeNick:focus {
-			    color: black;
-			    text-decoration: none;
-			    cursor: pointer;
 			}
 
 			.profilepic {

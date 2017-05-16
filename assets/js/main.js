@@ -4,100 +4,6 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 */
 
-/* ADDED JS */
-
-
-/*MEREDITH*/
-
-
-// Get the modal
-var modalMer = document.getElementById('myModalMer');
-var modalNick = document.getElementById('myModalNick');
-var modalMatteo = document.getElementById('myModalMatteo');
-var modalMac = document.getElementById('myModalMac');
-var modalKara = document.getElementById('myModalKara');
-var modalKate = document.getElementById('myModalKate');
-
-// Get the button that opens the modal
-var btnMer = document.getElementById("myBtnMer");
-var btnNick = document.getElementById("myBtnNick");
-var btnMatteo = document.getElementById("myBtnMatteo");
-var btnMac = document.getElementById("myBtnMac");
-var btnKara = document.getElementById("myBtnKara");
-var btnKate = document.getElementById("myBtnKate");
-
-// Get the <span> element that closes the modal
-var spanNick = document.getElementsByClassName("closeNick")[0];
-var spanMer = document.getElementsByClassName("closeMer")[0];
-/*var spanMatteo = document.getElementsByClassName("close")[2];
-var spanMac = document.getElementsByClassName("close")[3];
-var spanKara = document.getElementsByClassName("close")[4];
-var spanKate = document.getElementsByClassName("close")[5];*/
-
-// When the user clicks on the button, open the modal
-btnMer.onclick = function() {
-    modalMer.style.display = "block";
-}
-btnNick.onclick = function(){
-    modalNick.style.display = "block";
-}
-/*btnMatteo.onclick = function() {
-    modalMatteo.style.display = "block";
-}
-btnMac.onclick = function(){
-    modalMac.style.display = "block";
-}
-btnKara.onclick = function() {
-    modalKara.style.display = "block";
-}
-btnKate.onclick = function(){
-    modalKate.style.display = "block";
-}*/
-
-// When the user clicks on <span> (x), close the modal
-spanMer.onclick = function() {
-    modalMer.style.display = "none";
-}
-spanNick.onclick = function() {
-    modalNick.style.display = "none";
-}
-/*spanMatteo.onclick = function() {
-    modalMatteo.style.display = "none";
-}
-spanMac.onclick = function() {
-    modalMac.style.display = "none";
-}
-spanKate.onclick = function() {
-    modalKate.style.display = "none";
-}
-spanKara.onclick = function() {
-    modalKara.style.display = "none";
-}*/
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modalMer) {
-        modalMer.style.display = "none";
-    }
-    if(event.target == modalNick){
-      modalNick.style.display = "none";
-    }
-    if (event.target == modalMatteo) {
-        modalMatteo.style.display = "none";
-    }
-    if(event.target == modalMac){
-      modalMac.style.display = "none";
-    }
-    if (event.target == modalKara) {
-        modalKara.style.display = "none";
-    }
-    if(event.target == modalKate){
-      modalKate.style.display = "none";
-    }
-}
-
-/* ADDED JS */
-
 (function($) {
 
 	skel.breakpoints({
@@ -143,7 +49,7 @@ window.onclick = function(event) {
 
 		// Menu.
 			$('#menu')
-				.append('<a href="#menu" class="closeNick"></a>')
+				.append('<a href="#menu" class="close"></a>')
 				.appendTo($body)
 				.panel({
 					delay: 500,
@@ -153,6 +59,8 @@ window.onclick = function(event) {
 					resetForms: true,
 					side: 'right'
 				});
+
+        $('.close')
 
 	});
 
