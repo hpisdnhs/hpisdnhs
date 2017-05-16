@@ -3041,6 +3041,23 @@
 				float: left;
 			}
 
+			@media screen and (max-width: 980px){
+				.modal-content{
+					padding: 20px;
+					max-width: 78%;
+				}
+
+				#contactbtn {
+					padding-left: 2%;
+					padding-right: 2%;
+				}
+
+				#myBtn {
+					padding-left: 2%;
+					padding-right: 2%;
+				}
+			}
+
 		/*ADDED CSS END */
 
 		@media screen and (max-width: 1280px) {
