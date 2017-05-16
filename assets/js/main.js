@@ -27,32 +27,32 @@ var btnKara = document.getElementById("myBtnKara");
 var btnKate = document.getElementById("myBtnKate");
 
 // Get the <span> element that closes the modal
-var spanNick = document.getElementsByClassName("close")[0];
-var spanMer = document.getElementsByClassName("close")[1];
-var spanMatteo = document.getElementsByClassName("close")[2];
+var spanNick = document.getElementsByClassName("closeNick")[0];
+var spanMer = document.getElementsByClassName("closeMer")[0];
+/*var spanMatteo = document.getElementsByClassName("close")[2];
 var spanMac = document.getElementsByClassName("close")[3];
 var spanKara = document.getElementsByClassName("close")[4];
-var spanKate = document.getElementsByClassName("close")[5];
+var spanKate = document.getElementsByClassName("close")[5];*/
 
 // When the user clicks on the button, open the modal
 btnMer.onclick = function() {
     modalMer.style.display = "block";
 }
 btnNick.onclick = function(){
-  modalNick.style.display = "block";
+    modalNick.style.display = "block";
 }
-btnMatteo.onclick = function() {
-    modalMer.style.display = "block";
+/*btnMatteo.onclick = function() {
+    modalMatteo.style.display = "block";
 }
 btnMac.onclick = function(){
-  modalNick.style.display = "block";
+    modalMac.style.display = "block";
 }
 btnKara.onclick = function() {
-    modalMer.style.display = "block";
+    modalKara.style.display = "block";
 }
 btnKate.onclick = function(){
-  modalNick.style.display = "block";
-}
+    modalKate.style.display = "block";
+}*/
 
 // When the user clicks on <span> (x), close the modal
 spanMer.onclick = function() {
@@ -61,6 +61,18 @@ spanMer.onclick = function() {
 spanNick.onclick = function() {
     modalNick.style.display = "none";
 }
+/*spanMatteo.onclick = function() {
+    modalMatteo.style.display = "none";
+}
+spanMac.onclick = function() {
+    modalMac.style.display = "none";
+}
+spanKate.onclick = function() {
+    modalKate.style.display = "none";
+}
+spanKara.onclick = function() {
+    modalKara.style.display = "none";
+}*/
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
@@ -69,6 +81,18 @@ window.onclick = function(event) {
     }
     if(event.target == modalNick){
       modalNick.style.display = "none";
+    }
+    if (event.target == modalMatteo) {
+        modalMatteo.style.display = "none";
+    }
+    if(event.target == modalMac){
+      modalMac.style.display = "none";
+    }
+    if (event.target == modalKara) {
+        modalKara.style.display = "none";
+    }
+    if(event.target == modalKate){
+      modalKate.style.display = "none";
     }
 }
 
@@ -119,7 +143,7 @@ window.onclick = function(event) {
 
 		// Menu.
 			$('#menu')
-				.append('<a href="#menu" class="close"></a>')
+				.append('<a href="#menu" class="closeNick"></a>')
 				.appendTo($body)
 				.panel({
 					delay: 500,
