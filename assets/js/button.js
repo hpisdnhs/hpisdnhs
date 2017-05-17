@@ -17,6 +17,7 @@ var btnKate = document.getElementById("myBtnKate");
 //Buttons to close the window
 var btnclsNick = document.getElementById("closeNick");
 var btnclsMer = document.getElementById("closeMer");
+var btnclsKate = document.getElementById("closeKate");
 
 // When the user clicks on the button, open the modal
 btnMer.onclick = function() {
@@ -35,6 +36,9 @@ btnclsNick.onclick = function(){
 }
 btnclsMer.onclick = function(){
   modalMer.style.display = "none";
+}
+btnclsKate.onclick = function(){
+  modalKate.style.display = "none";
 }
 
 // When the user clicks anywhere outside of the modal, close it
