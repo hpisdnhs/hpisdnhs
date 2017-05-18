@@ -3048,10 +3048,14 @@
 					border-radius: 30px;
 				}
 
-				#closeNick {
-					padding: 5px;
+				.closebtn {
+					padding: 0 5px 0 5px;
 				}
 
+			}
+
+			@media screen and (max-width: 960px){
+				
 			}
 
 		/*ADDED CSS END */

@@ -18,6 +18,7 @@ var btnKate = document.getElementById("myBtnKate");
 var btnclsNick = document.getElementById("closeNick");
 var btnclsMer = document.getElementById("closeMer");
 var btnclsKate = document.getElementById("closeKate");
+var btnclsMac = document.getElementById("closeMac");
 
 // When the user clicks on the button, open the modal
 btnMer.onclick = function() {
@@ -28,6 +29,9 @@ btnNick.onclick = function(){
 }
 btnKate.onclick = function(){
     modalKate.style.display = "block";
+}
+btnMac.onclick = function(){
+    modalMac.style.display = "block";
 }
 
 //When the user clicks on the close button, closes the modal
@@ -40,6 +44,9 @@ btnclsMer.onclick = function(){
 btnclsKate.onclick = function(){
   modalKate.style.display = "none";
 }
+btnclsMac.onclick = function(){
+  modalMac.style.display = "none";
+}
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
@@ -51,5 +58,8 @@ window.onclick = function(event) {
     }
     if(event.target == modalKate){
       modalKate.style.display = "none";
+    }
+    if(event.target == modalMac){
+      modalMac.style.display = "none";
     }
 }
