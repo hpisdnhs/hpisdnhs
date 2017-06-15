@@ -19,6 +19,8 @@ var btnclsNick = document.getElementById("closeNick");
 var btnclsMer = document.getElementById("closeMer");
 var btnclsKate = document.getElementById("closeKate");
 var btnclsMac = document.getElementById("closeMac");
+var btnclsKara = document.getElementById("closeKara");
+var btnclsMatteo = document.getElementById("closeMatteo");
 
 // When the user clicks on the button, open the modal
 btnMer.onclick = function() {
@@ -32,6 +34,12 @@ btnKate.onclick = function(){
 }
 btnMac.onclick = function(){
     modalMac.style.display = "block";
+}
+btnKara.onclick = function(){
+    modalKara.style.display = "block";
+}
+btnMatteo.onclick = function(){
+    modalMatteo.style.display = "block";
 }
 
 //When the user clicks on the close button, closes the modal
@@ -47,6 +55,12 @@ btnclsKate.onclick = function(){
 btnclsMac.onclick = function(){
   modalMac.style.display = "none";
 }
+btnclsKara.onclick = function(){
+  modalKara.style.display = "none";
+}
+btnclsMatteo.onclick = function(){
+  modalMatteo.style.display = "none";
+}
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
@@ -61,5 +75,8 @@ window.onclick = function(event) {
     }
     if(event.target == modalMac){
       modalMac.style.display = "none";
+    }
+    if(event.target == modalKara){
+      modalKara.style.display = "none";
     }
 }
