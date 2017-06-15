@@ -3028,19 +3028,9 @@
 			list-style: none;
 		}
 
-		#Juniors {
-			background-color: #003965;
-			color: #FFBF23;
-		}
-
 		.inner2 {
 			margin: 0 auto;
 			max-width: 90%;
-		}
-
-		#Seniors {
-			background-color: #FFBF23;
-			color: #003965;
 		}
 
 		#linktitle {
@@ -3111,7 +3101,27 @@
 			}
 
 			@media screen and (max-width: 960px){
+				#formsicon {
+					display: none;
+				}
 
+				#formstitle {
+					text-align: center;
+					display: block;
+					float: none;
+				}
+			}
+
+			@media screen and (max-width: 480px){
+				#link {
+					padding-left: 0;
+					margin-left: 0;
+				}
+
+				.button.icon {
+					padding-left: 10px;
+					padding-right: 10px;
+				}
 			}
 
 		/*ADDED CSS END */
