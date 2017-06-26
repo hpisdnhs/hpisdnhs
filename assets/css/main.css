@@ -1614,10 +1614,10 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: #767d85;
+		color: #003965;
 		font-family: "Open Sans", Arial, Helvetica, sans-serif;
 		font-size: 13pt;
-		font-weight: 300;
+		font-weight: bold;
 		line-height: 1.65;
 	}
 
